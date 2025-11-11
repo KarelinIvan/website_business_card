@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5 {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.header {
+
+}
+.header__menu {
+
+}
+.logo {
+
+}
+.nav {
+
+}
+.nav__link {
+
+}
+.header__screen {
+
+}
+.screen__left {
+
+}
+.screen__img {
+
+}
+.screen__right {
+
+}
+.title {
+
+}
+.text__p {
+
+}
+.screen__btn {
+
+}
