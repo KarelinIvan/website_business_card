@@ -8,12 +8,22 @@ h1, h2, h3, h4, h5 {
     padding: 0;
     margin: 0;
 }
+body {
+    margin: 0;
+    font-family: "Roboto";
+    font-weight: 400;
+}
 .container {
     max-width: 1110px;
     margin: 0 auto;
 }
+:root {
+    --background-color: rgba(238, 239, 241, 1);
+    --accent-color: rgba(52, 84, 122, 1);
+    --white-color: #FFFFFF;
+}
 .header {
-
+    
 }
 .header__menu {
 
