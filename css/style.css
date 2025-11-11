@@ -63,6 +63,9 @@ body {
     text-transform: uppercase;
     margin-right: 39px;
 }
+.nav__link a:hover {
+    color: var(--accent-color);
+}
 .nav__link:last-child {
     margin-right: 10px;
 }
