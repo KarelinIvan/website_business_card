@@ -51,7 +51,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 19px 50px 17px;
+    padding: 51px 19px 50px 17px;
 }
 .logo {
     width: 96px;
@@ -82,7 +82,7 @@ body {
 }
 .screen__items {
     max-width: 540px;
-    padding-top: 89px;
+    padding-top: 88px;
 }
 .item__img {
     padding-top: 22px;
