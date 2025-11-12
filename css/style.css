@@ -29,10 +29,10 @@ body {
 .text__h2 {
     font-size: 32px;
     font-weight: 500;
-    line-height: 38;
     color: rgba(0, 0, 0, 1);
 }
 .text__p {
+    font-family: "Roboto";
     font-size: 16px;
     color: rgba(114, 114, 114, 1);
 }
@@ -113,5 +113,20 @@ body {
     margin-left: 1px;
 }
 .text__btn_screen {
+}
+.about {
 
 }
+.about__info {
+    max-width: 540px;
+    margin: 0 auto;
+    text-align: center;
+}
+.text__h2_about {
+    padding-top: 112px;
+}
+.text__p_about {
+    padding-top: 40px;
+    line-height: 1.6;
+}
+
