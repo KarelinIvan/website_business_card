@@ -132,6 +132,7 @@ body {
 .numbers {
     background-color: var(--accent-color);
     padding: 100px;
+    margin-bottom: 103px;
 }
 .numbers__grid {
     display: grid;
@@ -149,15 +150,18 @@ body {
 .skills {
 }
 .skills__flex {
-    
+    display: flex;
+    justify-content: space-between;
 }
 .skills__list {
 }
 .text__h2_skills {
+    padding-top: 102px;
 }
 .text__p_skills {
 }
 .skills__img {
+    max-width: 555px;
 }
 .skills__foto {
 }
