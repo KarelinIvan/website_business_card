@@ -121,6 +121,7 @@ body {
     max-width: 540px;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 92px;
 }
 .text__h2_about {
     padding-top: 112px;
@@ -128,5 +129,23 @@ body {
 .text__p_about {
     padding-top: 40px;
     line-height: 1.6;
+}
+.numbers {
+    background-color: var(--accent-color);
+    padding: 100px;
+}
+.numbers__items {
+    display: grid;
+    grid-template-columns: repeat(6, 50px);
+    padding-left: 20px;
+    gap: 140px;
+
+}
+.numbers__item {
+    max-width: 50px;
+    min-height: 50px;
+}
+.numbers__img {
+    color: var(--white-color);
 }
 
