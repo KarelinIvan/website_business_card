@@ -148,6 +148,7 @@ body {
     color: var(--white-color);
 }
 .skills {
+    margin-bottom: 100px;
 }
 .skills__flex {
     display: flex;
@@ -166,15 +167,13 @@ body {
     padding-bottom: 15px;
 }
 .progress__bar {
+    display: flex;
     width: 445px;
     height: 4px;
-    background: rgba(196, 196, 196, 1);
-    
+    background-color: var(--accent-color);
 }
-.progress__bar_status {
-    width: 350px;
-    height: 4px;
-    transform: rotate(-0.06deg);
+.progress__bar_completed {
+    background-color: rgba(196, 196, 196, 1);
 }
 .skills__img {
     max-width: 555px;
