@@ -183,7 +183,7 @@ body {
 .video {
     background-color: var(--background-color);
 }
-.video__items {
+.video__title {
     max-width: 540px;
     margin: 0 auto;
     text-align: center;
@@ -201,4 +201,13 @@ body {
     justify-content: center;
     align-items: center;
     padding-bottom: 100px;
+}
+.projects {
+}
+.projects__grid {
+
+}
+.projects__items {
+}
+.projects__product {
 }
