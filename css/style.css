@@ -180,3 +180,20 @@ body {
 }
 .skills__foto {
 }
+.video {
+    background-color: var(--background-color);
+}
+.video__items {
+    max-width: 540px;
+    margin: 0 auto;
+    text-align: center;
+}
+.text__h2_video {
+    padding-top: 100px;
+}
+.text__p_video {
+    padding-top: 41px;
+    line-height: 25px;
+}
+.video__content {
+}
