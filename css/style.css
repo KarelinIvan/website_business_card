@@ -204,6 +204,7 @@ body {
     padding-bottom: 100px;
 }
 .projects {
+    margin-bottom: 26px;
 }
 .projects__grid {
     display: grid;
