@@ -230,22 +230,51 @@ body {
 .clients__img {
 }
 .form {
+    background-color: var(--background-color);
 }
-.text__h2 {
+.form__container {
+    max-width: 540px;
+    margin: 0 auto;
 }
 .text__h2_form {
-}
-.text__p {
+    padding-top: 100px;
+    text-align: center;
 }
 .text__p_form {
+    padding-top: 40px;
+    text-align: center;
+    line-height: 25px;
 }
 .form__feedback {
+    padding-top: 60px;
 }
-.feedback__name {
+.feedback__info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
-.feedback__email {
+.name__form {
+    min-width: 255px;
+    min-height: 50px;
+}
+.email__form {
+    min-width: 255px;
+    min-height: 50px;
 }
 .feedback__message {
+    margin-bottom: 45px;
+}
+.message__form {
+    min-width: 540px;
+    min-height: 175px;
 }
 .feedback__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.btn__form {
+    min-width: 190px;
+    min-height: 55px;
 }
