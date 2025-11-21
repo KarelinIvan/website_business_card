@@ -258,11 +258,15 @@ body {
     min-width: 255px;
     min-height: 50px;
     border-style: none;
+    padding-left: 20px;
+    padding-top: 3px;
 }
 .email__form {
     min-width: 255px;
     min-height: 50px;
     border-style: none;
+    padding-left: 20px;
+    padding-top: 5px;
 }
 .feedback__message {
     margin-bottom: 45px;
@@ -271,6 +275,9 @@ body {
     min-width: 540px;
     min-height: 175px;
     border-style: none;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 15px;
 }
 .feedback__btn {
     display: flex;
