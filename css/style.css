@@ -217,10 +217,15 @@ body {
 .projects__product {
 }
 .clients {
+    padding-top: 47px;
+    margin-bottom: 100px;
 }
-.clients__grid {
+.clients__flex {
+    display: flex;
+    justify-content: space-around;
 }
 .clients__item {
+    max-width: 255px;
 }
 .clients__img {
 }
