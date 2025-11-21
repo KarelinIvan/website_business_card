@@ -252,14 +252,17 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    
 }
 .name__form {
     min-width: 255px;
     min-height: 50px;
+    border-style: none;
 }
 .email__form {
     min-width: 255px;
     min-height: 50px;
+    border-style: none;
 }
 .feedback__message {
     margin-bottom: 45px;
@@ -267,6 +270,7 @@ body {
 .message__form {
     min-width: 540px;
     min-height: 175px;
+    border-style: none;
 }
 .feedback__btn {
     display: flex;
@@ -277,4 +281,10 @@ body {
 .btn__form {
     min-width: 190px;
     min-height: 55px;
+    background-color: var(--accent-color);
+    border-style: none;
+}
+.text__p_btn {
+    text-transform: uppercase;
+    color: var(--white-color);
 }
