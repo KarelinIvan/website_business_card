@@ -300,12 +300,24 @@ body {
     padding: 50px 0;
 }
 .footer__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .footer__author {
 }
 .text__h2_author {
+    color: white;
 }
 .text__p_author {
+    color: white;
+}
+.contacts__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
 }
 .footer__contacts {
+    color: white;
+    font-size: 40px;
 }
