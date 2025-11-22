@@ -295,3 +295,17 @@ body {
     text-transform: uppercase;
     color: var(--white-color);
 }
+.footer {
+    background-color: var(--accent-color);
+    padding: 50px 0;
+}
+.footer__flex {
+}
+.footer__author {
+}
+.text__h2_author {
+}
+.text__p_author {
+}
+.footer__contacts {
+}
