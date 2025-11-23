@@ -233,7 +233,6 @@ body {
 }
 .link__project {
     display: block;
-    position: absolute;
     overflow: hidden;
 }
 .overlay__icon {
