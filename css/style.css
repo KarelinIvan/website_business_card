@@ -49,6 +49,7 @@ body {
     letter-spacing: 0.15em;
     text-align: center;
 }
+/* Раздел Header */
 .header {
     background-color: var(--background-color);
     min-height: 700px;
@@ -119,8 +120,8 @@ body {
 }
 .text__btn_screen {
 }
+/* Раздел about */
 .about {
-
 }
 .about__info {
     max-width: 540px;
@@ -135,6 +136,7 @@ body {
     padding-top: 40px;
     line-height: 1.6;
 }
+/* Раздел numbers */
 .numbers {
     background-color: var(--accent-color);
     padding: 100px;
@@ -153,6 +155,7 @@ body {
 .numbers__img {
     color: var(--white-color);
 }
+/* Раздел skills */
 .skills {
     margin-bottom: 100px;
 }
@@ -186,6 +189,7 @@ body {
 }
 .skills__foto {
 }
+/* Раздел video */
 .video {
     background-color: var(--background-color);
     margin-bottom: 26px;
@@ -209,6 +213,7 @@ body {
     align-items: center;
     padding-bottom: 100px;
 }
+/* Раздел projects */
 .projects {
     margin-bottom: 26px;
 }
@@ -219,9 +224,33 @@ body {
 }
 .projects__items {
     max-width: 480px;
+    position: relative;
 }
 .projects__product {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
+.link__project {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+}
+.overlay__icon {
+    position: absolute;
+    background-color: rgba(52, 84, 122, 0.8);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 0; /* Изначально невидимый */
+    transition: 0.5s ease; /* Анимация перехода */
+}
+.link__project:hover .overlay__icon {
+    opacity: 1;
+}
+/* Раздел clients */
 .clients {
     padding-top: 47px;
     margin-bottom: 100px;
@@ -235,6 +264,7 @@ body {
 }
 .clients__img {
 }
+/* Раздел form */
 .form {
     background-color: var(--background-color);
 }
@@ -258,7 +288,6 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    
 }
 .name__form {
     min-width: 255px;
@@ -301,6 +330,7 @@ body {
     text-transform: uppercase;
     color: var(--white-color);
 }
+/* Раздел footer */
 .footer {
     background-color: var(--accent-color);
     padding: 50px 0;
