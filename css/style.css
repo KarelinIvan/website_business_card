@@ -233,9 +233,8 @@ body {
 }
 .link__project {
     display: block;
-    overflow: hidden;
 }
-.overlay__icon {
+.overlay {
     position: absolute;
     background-color: rgba(52, 84, 122, 0.8);
     top: 0;
@@ -246,7 +245,12 @@ body {
     opacity: 0; /* Изначально невидимый */
     transition: 0.5s ease; /* Анимация перехода */
 }
-.link__project:hover .overlay__icon {
+.overlay__icon {
+    background-image: url(../img/view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.link__project:hover .overlay {
     opacity: 1;
 }
 /* Раздел clients */
